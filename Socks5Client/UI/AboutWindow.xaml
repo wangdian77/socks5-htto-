@@ -1,0 +1,50 @@
+<Window x:Class="Socks5Client.UI.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="关于" Height="350" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="SOCKS5/HTTP 代理客户端" 
+                   FontSize="20" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="1" Text="版本 1.0.0" 
+                   FontSize="14" 
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <TextBlock Grid.Row="2" Text="一个简洁易用的 Windows 平台代理客户端" 
+                   FontSize="12" 
+                   HorizontalAlignment="Center" Margin="0,0,0,30"/>
+
+        <TextBlock Grid.Row="3" Text="联系方式：" 
+                   FontSize="12" FontWeight="Bold" Margin="0,0,0,5"/>
+
+        <TextBlock Grid.Row="4" Text="QQ邮箱: 2022572450@qq.com" 
+                   FontSize="12" Margin="0,0,0,20"/>
+
+        <TextBlock Grid.Row="5" Text="本软件仅供学习和研究使用，使用者需遵守当地法律法规。" 
+                   FontSize="10" Foreground="Gray" 
+                   TextWrapping="Wrap" Margin="0,0,0,20"/>
+
+        <Button Grid.Row="7" Content="确定" 
+                Width="100" Height="30" 
+                HorizontalAlignment="Center" 
+                Click="OkButton_Click" IsDefault="True"/>
+    </Grid>
+</Window>
+

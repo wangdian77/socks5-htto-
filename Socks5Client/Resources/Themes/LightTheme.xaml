@@ -1,0 +1,7 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 这个文件可以用于定义全局样式和资源 -->
+
+</ResourceDictionary>
+
